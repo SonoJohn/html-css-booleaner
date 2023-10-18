@@ -85,8 +85,8 @@ td {
     text-align: left;
 }
 
-td {
-    height: 70px;
+.cell1 {
+    width: 25%;
 }
 
 tr:nth-child(even) {
@@ -101,4 +101,5 @@ tr:nth-child(even) {
 /* FOOTER */
 h3 {
     color: gray;
+
 }

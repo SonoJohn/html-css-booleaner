@@ -101,5 +101,25 @@ tr:nth-child(even) {
 /* FOOTER */
 h3 {
     color: gray;
+    margin-bottom: 10px;
+}
 
+.image-text {
+    font-size: 20px;
+    color: aliceblue;
+    width: 200px;
+    height: 200px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.text1 {
+    background-image: url(../img/esercizio-2-photo.png);
+    background-size: cover;
+}
+
+.text2 {
+    background-image: url(../img/esercizio-2-photo-2.png);
+    background-size: contain;
 }

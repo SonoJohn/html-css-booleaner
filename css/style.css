@@ -6,7 +6,21 @@
 }
 
 /* HEADER */
-.header {
+.container {
     background-image: url(../img/banner\ esercizio.png);
-    height: 80px;
+    height: 100px;
+    position: relative;
+}
+
+.header-text {
+    color: aliceblue;
+    position: absolute;
+    bottom: 8px;
+}
+
+.the {
+    font-size: small;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
 }

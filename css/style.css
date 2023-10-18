@@ -5,8 +5,14 @@
     box-sizing: border-box;
 }
 
-/* HEADER */
+/* COMMON */
 .container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* HEADER */
+.banner {
     background-image: url(../img/banner\ esercizio.png);
     height: 100px;
     position: relative;

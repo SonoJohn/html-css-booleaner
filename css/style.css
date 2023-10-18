@@ -63,4 +63,42 @@ h2 {
 
 .paragraph {
     text-align: justify;
+    margin-bottom: 20px;
+}
+
+/* LIST */
+ul {
+    margin-left: 1.2rem;
+    margin-bottom: 20px;
+}
+
+/* TABLE */
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+th,
+td {
+    text-align: left;
+}
+
+td {
+    height: 70px;
+}
+
+tr:nth-child(even) {
+    background-color: deepskyblue;
+}
+
+.table-head {
+    background-color: dodgerblue;
+    color: aliceblue;
+}
+
+/* FOOTER */
+h3 {
+    color: gray;
 }
